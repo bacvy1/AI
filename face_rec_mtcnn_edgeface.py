@@ -16,7 +16,7 @@ from facenet_pytorch import MTCNN
 from torchvision import transforms
 
 # adjust this to your local clone
-EDGEREPO = os.environ.get('EDGEREPO') or '/home/bacus/workspace/AI_Iluminati/edgeface'
+EDGEREPO = os.environ.get('EDGEREPO') or '/home/bacus/workspace/edgeface'
 sys.path.append(EDGEREPO)
 
 # import repo-specific functions

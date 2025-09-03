@@ -7,7 +7,7 @@ opencv-python>=4.8.0
 tqdm>=4.65.0
 matplotlib>=3.7.0
 scikit-learn>=1.2.0
-
+facenet_pytorch
 # MTCNN face detector
 mtcnn>=0.1.0
 

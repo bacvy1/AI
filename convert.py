@@ -16,5 +16,5 @@ def convert_jfif_to_jpg(folder):
                 print(f"Error with {filename}: {e}")
 
 if __name__ == "__main__":
-    folder_path = "./dataset"  # đổi thành thư mục bạn muốn, "." = thư mục hiện tại
+    folder_path = "./dataset/Bac"  # đổi thành thư mục bạn muốn, "." = thư mục hiện tại
     convert_jfif_to_jpg(folder_path)
